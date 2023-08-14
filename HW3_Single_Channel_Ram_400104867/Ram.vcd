@@ -1,0 +1,350 @@
+$date
+	Sun May 28 15:52:19 2023
+$end
+$version
+	ModelSim Version 2020.4
+$end
+$timescale
+	1ns
+$end
+
+$scope module TestBench $end
+$var reg 1 ! clk $end
+$var reg 1 " write $end
+$var wire 1 # data [15] $end
+$var wire 1 $ data [14] $end
+$var wire 1 % data [13] $end
+$var wire 1 & data [12] $end
+$var wire 1 ' data [11] $end
+$var wire 1 ( data [10] $end
+$var wire 1 ) data [9] $end
+$var wire 1 * data [8] $end
+$var wire 1 + data [7] $end
+$var wire 1 , data [6] $end
+$var wire 1 - data [5] $end
+$var wire 1 . data [4] $end
+$var wire 1 / data [3] $end
+$var wire 1 0 data [2] $end
+$var wire 1 1 data [1] $end
+$var wire 1 2 data [0] $end
+$var reg 12 3 address [11:0] $end
+$var reg 16 4 data_driver [15:0] $end
+
+$scope task test $end
+$var reg 16 5 data_in [15:0] $end
+$var reg 1 6 wr $end
+$var reg 12 7 addr [11:0] $end
+$upscope $end
+
+$scope module ram $end
+$var wire 1 8 clk $end
+$var wire 1 9 write $end
+$var wire 1 # data [15] $end
+$var wire 1 $ data [14] $end
+$var wire 1 % data [13] $end
+$var wire 1 & data [12] $end
+$var wire 1 ' data [11] $end
+$var wire 1 ( data [10] $end
+$var wire 1 ) data [9] $end
+$var wire 1 * data [8] $end
+$var wire 1 + data [7] $end
+$var wire 1 , data [6] $end
+$var wire 1 - data [5] $end
+$var wire 1 . data [4] $end
+$var wire 1 / data [3] $end
+$var wire 1 0 data [2] $end
+$var wire 1 1 data [1] $end
+$var wire 1 2 data [0] $end
+$var wire 1 : address [11] $end
+$var wire 1 ; address [10] $end
+$var wire 1 < address [9] $end
+$var wire 1 = address [8] $end
+$var wire 1 > address [7] $end
+$var wire 1 ? address [6] $end
+$var wire 1 @ address [5] $end
+$var wire 1 A address [4] $end
+$var wire 1 B address [3] $end
+$var wire 1 C address [2] $end
+$var wire 1 D address [1] $end
+$var wire 1 E address [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+b0 3
+b0 4
+b110111 5
+16
+b10100 7
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+18
+$end
+#5
+0!
+08
+b10100 3
+1"
+b110111 4
+1C
+1A
+19
+12
+11
+10
+0/
+1.
+1-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+#10
+1!
+b1000110 5
+b111100 7
+18
+#15
+0!
+08
+b111100 3
+b1000110 4
+02
+0.
+0-
+1,
+1B
+1@
+#20
+1!
+b0 5
+06
+b10100 7
+18
+#25
+0!
+08
+b10100 3
+0"
+b0 4
+z2
+z1
+z0
+z/
+z.
+z-
+z,
+z+
+z*
+z)
+z(
+z'
+z&
+z%
+z$
+z#
+0B
+0@
+09
+12
+11
+10
+0/
+1.
+1-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+#30
+1!
+b111100 7
+18
+#35
+0!
+08
+b111100 3
+1B
+1@
+02
+0.
+0-
+1,
+#40
+1!
+b101011001 5
+16
+b10100 7
+18
+#45
+0!
+08
+b10100 3
+1"
+b101011001 4
+x2
+x1
+x0
+x/
+x.
+x*
+0B
+0@
+19
+12
+01
+00
+1/
+1.
+1*
+#50
+1!
+b0 5
+06
+18
+#55
+0!
+08
+0"
+b0 4
+z2
+z1
+z0
+z/
+z.
+z-
+z,
+z+
+z*
+z)
+z(
+z'
+z&
+z%
+z$
+z#
+09
+12
+01
+00
+1/
+1.
+0-
+1,
+0+
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+#60
+1!
+b1010101 5
+16
+b111100 7
+18
+#65
+0!
+08
+b111100 3
+1"
+b1010101 4
+x0
+x/
+x*
+1B
+1@
+19
+10
+0/
+0*
+#70
+1!
+b0 5
+06
+18
+#75
+0!
+08
+0"
+b0 4
+z2
+z1
+z0
+z/
+z.
+z-
+z,
+z+
+z*
+z)
+z(
+z'
+z&
+z%
+z$
+z#
+09
+12
+01
+10
+0/
+1.
+0-
+1,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+#80
+1!

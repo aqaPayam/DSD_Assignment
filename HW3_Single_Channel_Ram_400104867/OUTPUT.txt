@@ -1,0 +1,11 @@
+# data :    55 write in add :   20
+# data :    70 write in add :   60
+# read data is    55 from address :   20
+# read data is    70 from address :   60
+# data :   345 write in add :   20
+# read data is   345 from address :   20
+# data :    85 write in add :   60
+# read data is    85 from address :   60
+# ** Note: $stop    : C:/Users/payam/Desktop/AZ9/FIle.v(66)
+#    Time: 80 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Users/payam/Desktop/AZ9/FIle.v line 66

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vAdder
+Z1 IYzKL10H2D1HBP5Z=RT7Ff1
+Z2 VhaPFJXh59=FQ8ZF`Ua1N_2
+Z3 dC:\Users\payam\Desktop\DSD_HW2
+Z4 w1682961882
+Z5 8C:\Users\payam\Desktop\DSD_HW2\RCA.v
+Z6 FC:\Users\payam\Desktop\DSD_HW2\RCA.v
+L0 38
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s108 1682961885.410000
+Z9 !s107 C:\Users\payam\Desktop\DSD_HW2\RCA.v|
+Z10 !s90 -reportprogress|300|-work|work|C:\Users\payam\Desktop\DSD_HW2\RCA.v|
+Z11 o-work work -O0
+Z12 n@adder
+!i10b 1
+Z13 !s100 9f^jJ2ZkoG;ibgVO]G5j00
+!s85 0
+!s101 -O0
+vFA
+Z14 IUUNAlK;l^]Rb?mB?4d5^93
+Z15 V48X[hK=^UBmLzMK:8Z7GO2
+R3
+R4
+R5
+R6
+L0 23
+R7
+r1
+31
+R8
+R9
+R10
+R11
+n@f@a
+!i10b 1
+Z16 !s100 m73QN=Wd]R9d7_o15g3D00
+!s85 0
+!s101 -O0
+vHA
+Z17 I;X^XMl0eKi>>5hGOkin]D3
+Z18 VhjbF<BlG:LI0=B8@nU94]0
+R3
+R4
+R5
+R6
+L0 3
+R7
+r1
+31
+R8
+R9
+R10
+R11
+n@h@a
+!i10b 1
+Z19 !s100 zBA`nz>UU1gKDj>Dl`Bnh0
+!s85 0
+!s101 -O0
+vTestBench
+!i10b 1
+!s100 8e7dS@UYlRnJ;T`U7H>QD3
+I>HzEJ]AcCAGoogfVT1]H21
+VH;VS]59WmQ>4a<zRibM9Z0
+R3
+w1682962073
+8C:\Users\payam\Desktop\DSD_HW2\TestBench.v
+FC:\Users\payam\Desktop\DSD_HW2\TestBench.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1682962076.488000
+!s107 C:\Users\payam\Desktop\DSD_HW2\TestBench.v|
+!s90 -reportprogress|300|-work|work|C:\Users\payam\Desktop\DSD_HW2\TestBench.v|
+!s101 -O0
+R11
+n@test@bench

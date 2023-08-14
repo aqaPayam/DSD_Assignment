@@ -1,0 +1,570 @@
+$date
+	Fri Jun 02 18:12:14 2023
+$end
+$version
+	ModelSim Version 2020.4
+$end
+$timescale
+	1ns
+$end
+
+$scope module TestBench $end
+$var reg 1 ! clk $end
+$var reg 16 " in [15:0] $end
+$var reg 3 # control [2:0] $end
+$var wire 1 $ out [15] $end
+$var wire 1 % out [14] $end
+$var wire 1 & out [13] $end
+$var wire 1 ' out [12] $end
+$var wire 1 ( out [11] $end
+$var wire 1 ) out [10] $end
+$var wire 1 * out [9] $end
+$var wire 1 + out [8] $end
+$var wire 1 , out [7] $end
+$var wire 1 - out [6] $end
+$var wire 1 . out [5] $end
+$var wire 1 / out [4] $end
+$var wire 1 0 out [3] $end
+$var wire 1 1 out [2] $end
+$var wire 1 2 out [1] $end
+$var wire 1 3 out [0] $end
+$var wire 1 4 Carry $end
+$var wire 1 5 Zero $end
+$var wire 1 6 Overflow $end
+$var wire 1 7 Sign $end
+
+$scope task test $end
+$var reg 3 8 act [2:0] $end
+$var reg 16 9 data_in [15:0] $end
+$upscope $end
+
+$scope module alu $end
+$var parameter 32 : data_width $end
+$var wire 1 ; clk $end
+$var wire 1 < data [15] $end
+$var wire 1 = data [14] $end
+$var wire 1 > data [13] $end
+$var wire 1 ? data [12] $end
+$var wire 1 @ data [11] $end
+$var wire 1 A data [10] $end
+$var wire 1 B data [9] $end
+$var wire 1 C data [8] $end
+$var wire 1 D data [7] $end
+$var wire 1 E data [6] $end
+$var wire 1 F data [5] $end
+$var wire 1 G data [4] $end
+$var wire 1 H data [3] $end
+$var wire 1 I data [2] $end
+$var wire 1 J data [1] $end
+$var wire 1 K data [0] $end
+$var wire 1 L control [2] $end
+$var wire 1 M control [1] $end
+$var wire 1 N control [0] $end
+$var reg 16 O Acc [15:0] $end
+$var reg 1 P Carry $end
+$var wire 1 5 Zero $end
+$var reg 1 Q Overflow $end
+$var wire 1 7 Sign $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+b0 "
+b0 #
+bx O
+0P
+0Q
+bx 8
+bx 9
+b10000 :
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+04
+x5
+06
+x7
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+1;
+$end
+#1
+b1 8
+b0 9
+#5
+0!
+0;
+#6
+b1 #
+1N
+#10
+1!
+1;
+b0 O
+07
+15
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#11
+b10 8
+b101 9
+#15
+0!
+0;
+#16
+b101 "
+b10 #
+0N
+1M
+1K
+1I
+#20
+1!
+1;
+b101 O
+05
+13
+11
+#21
+b0 8
+b0 9
+#25
+0!
+0;
+#26
+b0 "
+b0 #
+0M
+0K
+0I
+#30
+1!
+1;
+#31
+b10 8
+b1111 9
+#35
+0!
+0;
+#36
+b1111 "
+b10 #
+1M
+1K
+1J
+1I
+1H
+#40
+1!
+1;
+b10100 O
+03
+1/
+#41
+b11 8
+b111 9
+#45
+0!
+0;
+#46
+b111 "
+b11 #
+1N
+0H
+#50
+1!
+1;
+b1101 O
+13
+10
+0/
+#51
+b1 8
+b0 9
+#55
+0!
+0;
+#56
+b0 "
+b1 #
+0M
+0K
+0J
+0I
+#60
+1!
+1;
+b0 O
+15
+03
+01
+00
+#61
+b10 8
+b101 9
+#65
+0!
+0;
+#66
+b101 "
+b10 #
+0N
+1M
+1K
+1I
+#70
+1!
+1;
+b101 O
+05
+13
+11
+#71
+b111 8
+b1010 9
+#75
+0!
+0;
+#76
+b1010 "
+b111 #
+1N
+1L
+0K
+1J
+0I
+1H
+#80
+1!
+1;
+b1111 O
+12
+10
+#81
+b110 8
+b0 9
+#85
+0!
+0;
+#86
+b0 "
+b110 #
+0N
+0J
+0H
+#90
+1!
+1;
+b1111111111110000 O
+17
+03
+02
+01
+00
+1/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+#91
+b0 8
+#95
+0!
+0;
+#96
+b0 #
+0M
+0L
+#100
+1!
+1;
+#101
+b10 8
+b1111 9
+#105
+0!
+0;
+#106
+b1111 "
+b10 #
+1M
+1K
+1J
+1I
+1H
+#110
+1!
+1;
+b1111111111111111 O
+13
+12
+11
+10
+#111
+b101 8
+b0 9
+#115
+0!
+0;
+#116
+b0 "
+b101 #
+1N
+0M
+1L
+0K
+0J
+0I
+0H
+#120
+1!
+1;
+b1 O
+07
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+#121
+b100 8
+b101010100101001 9
+#125
+0!
+0;
+#126
+b101010100101001 "
+b100 #
+0N
+1K
+1H
+1F
+1C
+1A
+1?
+1=
+#130
+1!
+1;
+#131
+b10 8
+b111111111111111 9
+#135
+0!
+0;
+#136
+b111111111111111 "
+b10 #
+1M
+0L
+1J
+1I
+1G
+1E
+1D
+1B
+1@
+1>
+#140
+1!
+1;
+1Q
+16
+b1000000000000000 O
+17
+03
+1$
+#145
+0!
+0;
+#150
+1!
+1;
+0Q
+06
+b1111111111111111 O
+13
+12
+11
+10
+1/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+#155
+0!
+0;
+#160
+1!
+1;
+b111111111111110 O
+1P
+07
+03
+0$
+14
+#161
+b11 8
+#165
+0!
+0;
+#166
+b11 #
+1N
+#170
+1!
+1;
+b1111111111111111 O
+17
+13
+1$
+#175
+0!
+0;
+#180
+1!
+1;
+b1000000000000000 O
+0P
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+04
+#185
+0!
+0;
+#190
+1!
+1;
+b1 O
+07
+13
+0$
+#191
+b1000000000000000 9
+#195
+0!
+0;
+#196
+b1000000000000000 "
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+1<
+#200
+1!
+1;
+1Q
+16
+b1000000000000001 O
+1P
+17
+1$
+14
+#205
+0!
+0;
+#210
+1!
+1;
+0Q
+06
+b1 O
+0P
+07
+0$
+04

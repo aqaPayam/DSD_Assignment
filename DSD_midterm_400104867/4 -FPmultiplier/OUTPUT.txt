@@ -1,0 +1,91 @@
+# HEX : 
+# 
+# Run :a = c2aedfbe , b = 430f8f5c 
+#  Result = c64421d2 
+#  expected result = c64421d2, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 436a58bb , b = 3b83126f 
+#  Result = 3f6ff88f 
+#  expected result = 3f6ff88f, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 4234851f , b = 427c851f 
+#  Result = 453210ea 
+#  expected result = 453210ea, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 4049999a , b = c1663d71 
+#  Result = c2355063 
+#  expected result = c2355063, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = c1526666 , b = c240a3d7 
+#  Result = 441e5374 
+#  expected result = 441e5374, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 00000000 , b = 00000000 
+#  Result = 00000000 
+#  expected result = 00000000, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = c1526666 , b = 00000000 
+#  Result = 00000000 
+#  expected result = 00000000, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 7f800000 , b = 7f800000 
+#  Result = 00000000 
+#  expected result = 00000000, 
+#   Exception = 1,  Overflow = 1,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 3089705f , b = 3089705f 
+#  Result = 219392ee 
+#  expected result = 219392ee, 
+#   Exception = 0,  Overflow = 0,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 60ad78ec , b = 7e967699 
+#  Result = 7f800000 
+#  expected result = 7f800000, 
+#   Exception = 0,  Overflow = 1,   Underflow = 0  
+#  
+# True answer
+# HEX : 
+# 
+# Run :a = 60ad78ec , b = 7e967699 
+#  Result = 7f800000 
+#  expected result = 7f800000, 
+#   Exception = 0,  Overflow = 1,   Underflow = 0  
+#  
+# True answer
+# ** Note: $stop    : C:/Users/payam/Desktop/AZ9/FIle.v(118)
+#    Time: 110 ns  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/Users/payam/Desktop/AZ9/FIle.v line 118

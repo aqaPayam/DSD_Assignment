@@ -1,0 +1,104 @@
+# clear
+# out is(BINARY) : 0000000000000000
+# out is :     0
+# Carry: 0 Zero: 1 Overflow: 0 Sign : 0
+# 
+# add :: in is     5
+# out is(BINARY) : 0000000000000101
+# out is :     5
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# hold
+# out is(BINARY) : 0000000000000101
+# out is :     5
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# add :: in is    15
+# out is(BINARY) : 0000000000010100
+# out is :    20
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# sub :: in is     7
+# out is(BINARY) : 0000000000001101
+# out is :    13
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# clear
+# out is(BINARY) : 0000000000000000
+# out is :     0
+# Carry: 0 Zero: 1 Overflow: 0 Sign : 0
+# 
+# add :: in is     5
+# out is(BINARY) : 0000000000000101
+# out is :     5
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# xor :: in is    10
+# out is(BINARY) : 0000000000001111
+# out is :    15
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# not
+# out is(BINARY) : 1111111111110000
+# out is : 65520
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 1
+# 
+# hold
+# out is(BINARY) : 1111111111110000
+# out is : 65520
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 1
+# 
+# add :: in is    15
+# out is(BINARY) : 1111111111111111
+# out is : 65535
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 1
+# 
+# neg
+# out is(BINARY) : 0000000000000001
+# out is :     1
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# and :: in is 21801
+# out is(BINARY) : 0000000000000001
+# out is :     1
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# add :: in is 32767
+# out is(BINARY) : 1000000000000000
+# out is : 32768
+# Carry: 0 Zero: 0 Overflow: 1 Sign : 1
+# 
+# add :: in is 32767
+# out is(BINARY) : 1111111111111111
+# out is : 65535
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 1
+# 
+# add :: in is 32767
+# out is(BINARY) : 0111111111111110
+# out is : 32766
+# Carry: 1 Zero: 0 Overflow: 0 Sign : 0
+# 
+# sub :: in is 32767
+# out is(BINARY) : 1111111111111111
+# out is : 65535
+# Carry: 1 Zero: 0 Overflow: 0 Sign : 1
+# 
+# sub :: in is 32767
+# out is(BINARY) : 1000000000000000
+# out is : 32768
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 1
+# 
+# sub :: in is 32767
+# out is(BINARY) : 0000000000000001
+# out is :     1
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0
+# 
+# sub :: in is 32768
+# out is(BINARY) : 1000000000000001
+# out is : 32769
+# Carry: 1 Zero: 0 Overflow: 1 Sign : 1
+# 
+# sub :: in is 32768
+# out is(BINARY) : 0000000000000001
+# out is :     1
+# Carry: 0 Zero: 0 Overflow: 0 Sign : 0

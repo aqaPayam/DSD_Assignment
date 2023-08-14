@@ -1,0 +1,17 @@
+C:/Users/payam/Desktop/DSD_HW2/RCA.v {1 {vlog -work work {C:\Users\payam\Desktop\DSD_HW2\RCA.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module HA
+-- Compiling module FA
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/payam/Desktop/DSD_HW2/TestBench.v {1 {vlog -work work {C:\Users\payam\Desktop\DSD_HW2\TestBench.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}}
